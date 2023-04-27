@@ -12,7 +12,7 @@
 
 let str=prompt("Enter a string");
 
-function firstNonRepeatedChar(str) {
+function firstNonRepeatingCharacter(str) {
   let charCount = {};
   for (let i = 0; i < str.length; i++) {
     if (charCount[str[i]]) {
